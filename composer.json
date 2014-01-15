@@ -2,9 +2,7 @@
 	"name":              "dreamfactory/lib-platform-installer",
 	"description":       "DreamFactory Services Platform(tm) Package Installer",
 	"version":           "1.0.0",
-	"type":              "composer-plugin",
-	"keywords":          ["dreamfactory", "dsp", "cloud", "jetpack", "plug-in"],
-	"homepage":          "http://dreamfactorysoftware.github.io/",
+	"type":              "library",
 	"license":           ["Apache-2.0"],
 	"authors":           [
 		{
@@ -13,11 +11,6 @@
 			"role":  "Sr. Software Engineer"
 		}
 	],
-	"support":           {
-		"email":  "support@dreamfactory.com",
-		"source": "https://github.com/dreamfactorysoftware/package-installer",
-		"issues": "https://github.com/dreamfactorysoftware/package-installer/issues"
-	},
 	"minimum-stability": "dev",
 	"autoload":          {
 		"psr-4": {
@@ -25,13 +18,7 @@
 		}
 	},
 	"extra":             {
-		"class":             "DreamFactory\\Tools\\Composer\\Package\\Plugin",
-		"base-install-path": "/storage",
-		"supported-types":   {
-			"dreamfactory-application": "/applications",
-			"dreamfactory-library":     "/lib",
-			"dreamfactory-plugin":      "/plugins"
-		}
+		"class":             "DreamFactory\\Tools\\Composer\\Package\\Plugin"
 	},
 	"require":           {
 		"kisma/kisma":         "*",
