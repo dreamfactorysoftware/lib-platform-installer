@@ -1,7 +1,8 @@
 {
+    "_deprecated":       "This package has been deprecated in favor of dreamfactory/package-installer",
 	"name":              "dreamfactory/lib-platform-installer",
 	"description":       "DreamFactory Services Platform(tm) Package Installer",
-	"version":           "1.2.99",
+	"version":           "1.0.1",
 	"type":              "library",
 	"license":           ["Apache-2.0"],
 	"authors":           [
