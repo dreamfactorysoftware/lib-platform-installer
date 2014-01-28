@@ -18,7 +18,7 @@
 		}
 	},
 	"extra":             {
-		"class":             "DreamFactory\\Tools\\Composer\\Package\\Plugin"
+		"class":             "DreamFactory\\Tools\\Composer\\Package\\Plugin",
 	},
 	"require":           {
 		"kisma/kisma":         "*",
