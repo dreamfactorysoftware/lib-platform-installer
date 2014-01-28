@@ -1,3 +1,4 @@
-# lib-platform-installer
+# ~~lib-platform-installer~~
 
-Package installer for the DreamFactory Services Platform&trade;
+Repo is deprecated in favor of the [DreamFactory Package Installer](https://github.com/dreamfactorysoftware/package-installer).
+
